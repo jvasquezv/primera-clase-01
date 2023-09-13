@@ -1,0 +1,29 @@
+{
+    "openapi": "3.0.2",
+    "info": {
+        "title": "New API",
+        "version": "1.0.0",
+        "description": "A brand new API with no content.  Go nuts!",
+        "contact": {
+            "name": "Joel",
+            "email": "vasque@fml.com"
+        }
+    },
+    "servers": [
+        {
+            "url": "http://{domain}.example.com:{port}/api",
+            "description": "Server de algo",
+            "variables": {
+                "domain": {
+                    "default": "joel",
+                    "description": "algo de je0oel"
+                },
+                "port": {
+                    "default": "500",
+                    "description": "segi"
+                }
+            }
+        }
+    ],
+    "paths": {}
+}
